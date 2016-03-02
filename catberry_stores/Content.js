@@ -41,11 +41,9 @@ Content.prototype.load = function () {
 	return this.$context.getStoreData('Pages')
 		.then(function(data) {
 			if(data.current === 'home') {
-				data.content = 'Content for homepage'
-				return data;
+				return { content: 'content for home'}
 			} else {
-				data.content = 'Content for another page'
-				return data;
+				return { content: 'content for not home'}
 			}
 		})
 };
