@@ -1,0 +1,5 @@
+{
+	"name": "Content",
+	"template": "./template.jade",
+	"errorTemplate": "./error.jade"
+}

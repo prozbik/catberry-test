@@ -1,0 +1,12 @@
+{
+  "home": {
+    "title": "Home page | Oleg Protsenko",
+    "description": "Javascript developer, looking for a job",
+    "keywords": "javascript, job, nodejs, catberryjs, isomorphic javascript"
+  },
+  "portfolio": {
+    "title": "Portfolio page | Portfolio",
+    "description": "Javascript developer, looking for a job, my portfolio",
+    "keywords": "javascript, job, nodejs, catberryjs, isomorphic javascript"
+  }
+}

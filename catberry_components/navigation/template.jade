@@ -1,0 +1,4 @@
+ul
+  each item in menu
+    li(class= isActive[item.name] ? 'active': '')
+      a(href="#{item.link}")= item.name
